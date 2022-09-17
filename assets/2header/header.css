@@ -1,0 +1,17 @@
+header {
+  background-color: black;
+  color: white;
+  padding: 25px 0px 25px 0px;
+}
+
+.itens {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item {
+}
+
+.item:hover {
+  cursor: pointer;
+}
