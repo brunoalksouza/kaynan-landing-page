@@ -1,12 +1,22 @@
 header {
   background-color: black;
   color: white;
-  padding: 25px 0px 25px 0px;
+  font-size: 22px; 
+}
+
+.borda-bottom{
+  height: 1px;
+  background-color: gray;
 }
 
 .itens {
   display: flex;
   justify-content: space-evenly;
+}
+ul{
+  padding-bottom: 0px;
+  list-style: none
+
 }
 
 .item {
@@ -14,4 +24,16 @@ header {
 
 .item:hover {
   cursor: pointer;
+}
+
+
+@media (max-width: 447px)
+{
+  header{
+    font-size: 17px;
+  }
+}
+
+.nav-item {
+  padding: 0 5rem;
 }
